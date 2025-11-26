@@ -1,0 +1,52 @@
+@media (max-width: 1024px) {
+    .section__nav-box-first {
+        padding: 15vw 5vw;
+        gap: 5vw;
+    }
+
+    .section__nav-box-first-text {
+        font-size: clamp(18px, 2.2vw, 28px);
+    }
+
+    .section__nav-box-first-one p {
+        font-size: clamp(15px, 1.5vw, 20px);
+    }
+}
+
+/* --- Мобильные устройства --- */
+@media (max-width: 768px) {
+    .section__nav-box-first {
+        position: relative; /* убираем абсолют для мобилок */
+        padding: 40px 15px;
+        gap: 30px;
+    }
+
+    .section__nav-img {
+        border-radius: 20px;
+    }
+
+    .section__nav-box-first-text {
+        text-align: center;
+        width: 100%;
+        max-width: 100%;
+        padding: 10px;
+    }
+
+    .section__nav-box-first-one p {
+        text-align: center;
+        width: 100%;
+        background: rgba(0, 0, 0, 0.5);
+    }
+}
+
+/* --- Очень маленькие экраны --- */
+@media (max-width: 480px) {
+    .section__nav-box-first-text {
+        font-size: 18px;
+    }
+
+    .section__nav-box-first-one p {
+        font-size: 15px;
+        padding: 6px 10px;
+    }
+}
